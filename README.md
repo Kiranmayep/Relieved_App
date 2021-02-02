@@ -30,7 +30,12 @@ ___
 ___
 ### Images of The App
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="250" height="500" />
-<p align="center">
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/3.jpeg" width="250" height="500" />
-</p>
+<img src="https://github.com/Kiranmayep/Relieved_App/blob/master/4.jpeg" width="250" height="500" />
+<img src="https://github.com/Kiranmayep/Relieved_App/blob/master/7.jpeg" width="250" height="500" />
+<img src="https://github.com/Kiranmayep/Relieved_App/blob/master/8.jpeg" width="250" height="500" />
+___
+### Author Info
+
+
 
