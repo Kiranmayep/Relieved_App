@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NatureActivity"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/myVideo1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="500dp">
+
+        <TextView
+            android:id="@+id/songTitle"
+            style="@style/Cursive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Song Title"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/seekBarTime"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/prev"
+            android:src="@drawable/rewind"/>
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/play"
+            android:src="@drawable/play"/>
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/next"
+            android:src="@drawable/forward"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="680dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/naturevolume1"/>
+
+
+            <SeekBar
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/seekBarVol"/>
+
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/naturevolume2"/>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+

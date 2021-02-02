@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SleepActivity">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#00BFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/ic_wave__13_"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="18dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="259dp"
+                android:src="@drawable/sleeppage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+
+                <SeekBar
+                    android:id="@+id/seek_bar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/bt_rew"
+                    android:src="@drawable/rewind" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/bt_play"
+                    android:src="@drawable/play" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/bt_pause"
+                    android:visibility="gone"
+                    android:src="@drawable/pause"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/bt_ff"
+                    android:src="@drawable/forward" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="88dp"
+                    android:layout_gravity="center"
+                    style="@style/Cursive"
+                    android:layout_marginTop="10dp"
+                    android:text="Instructions"
+                    android:textColor="#000"
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sleepdescription1"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youTubePlayerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="5qnPAyivazw"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    app:showYouTubeButton="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Advantages"
+                    style="@style/Cursive"
+                    android:textColor="#000"
+                    android:textSize="40dp"
+
+                    tools:ignore="MissingConstraints"/>
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sleepdescription2"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Cursive"
+        android:textStyle="bold"
+        android:text="Sleep Cycle"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

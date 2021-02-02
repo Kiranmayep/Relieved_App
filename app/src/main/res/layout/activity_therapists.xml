@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TherapistsActivity">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#00BFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/ic_wave__13_"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="10sp"
+                android:columnCount="1"
+                android:rowCount="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="173dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="20dp">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="167dp"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr.Yeshwanth"
+                                        android:textColor="@color/black"
+                                        android:textSize="24dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="30 years"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="MBBS, DCH(DNB)AFMC"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+                                    <Button
+                                        android:id="@+id/btncall"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="clip_vertical"
+                                        android:text="call"
+                                        android:textColor="@color/cardview_light_background"
+                                        android:textSize="18dp" />
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="20000000dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:src="@drawable/dryeshwanth" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="173dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="20dp">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="167dp"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr.Bhavana"
+                                        android:textColor="@color/black"
+                                        android:textSize="24dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="42 years"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="DNB,DGO,AFMC"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+                                    <Button
+                                        android:id="@+id/btn1call"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="clip_vertical"
+                                        android:text="call"
+                                        android:textColor="@color/cardview_light_background"
+                                        android:textSize="18dp" />
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="200000dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:src="@drawable/drbhavana" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="173dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="20dp">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="167dp"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr.Suresh"
+                                        android:textColor="@color/black"
+                                        android:textSize="24dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="50 years"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="NEUROPHYSICIAN"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+                                    <Button
+                                        android:id="@+id/btn2call"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="clip_vertical"
+                                        android:text="call"
+                                        android:textColor="@color/cardview_light_background"
+                                        android:textSize="18dp" />
+
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="20000000dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:src="@drawable/drsuresh" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="173dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="20dp">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="167dp"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr.Madhulika"
+                                        android:textColor="@color/black"
+                                        android:textSize="24dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="36 years"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="B.A.M.S, MSC.(PSYCH)"
+                                        android:textColor="@color/black"
+                                        android:textSize="18dp" />
+                                    <Button
+                                        android:id="@+id/btn3call"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="clip_vertical"
+                                        android:text="call"
+                                        android:background="@color/cardview_light_background"
+                                        android:textColor="@color/cardview_light_background"
+                                        android:textSize="18dp" />
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="200000dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:src="@drawable/drmadhulika" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Therapists"
+        android:textColor="#000"
+        style="@style/Cursive"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
