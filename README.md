@@ -1,7 +1,7 @@
 # Relieved_App
 ___
 
-###About
+### About
 The main aim of our app is to put forward a systematic approach for being relieved from stress, anxiety and other mental health issues. Through our App we make sure the user is provided with a personalized experience where we navigate them through multiple stress healing techniques like Meditation, Healthy nutrition, Proper Sleep, Virtual Nature tour, Fitness regime, Exercises etc.
 ___
 ###How is our App Different?
