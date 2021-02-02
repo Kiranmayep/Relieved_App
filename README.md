@@ -19,6 +19,7 @@ ___
 - Google Firebase(Database for the App).
 - Dialogflow for the Chatbot
 ___
+
 ### Libraries Used
 
 - PhilJay/MPAndroidChart
@@ -28,6 +29,7 @@ ___
 - enricocid/cpl
 
 ___
+
 ### Images of The App
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="250" height="500" />
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/3.jpeg" width="250" height="500" />
@@ -35,10 +37,12 @@ ___
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/7.jpeg" width="250" height="500" />
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/8.jpeg" width="250" height="500" />
 ___
+
 ### Challenges
 Setting up the chat bot functionality was difficult.Later used Dialogflow and made it simpler.
 Apart form this understanding multiple use case problems and addressing them with a particular solution was important.
 ___
+
 ### Conclusion
 India was dubbed as ‘one of the most depressed countries in the world’ by WHO in 2018-2019. Yet up to 83% people suffering from mental health issues don’t get the help they need, This is where our app comes into picture and we make sure our app relieves people to the fullest. We are extremely passionate towards solving this problem and are looking forward to help people come up with a much better version of themselves.
 
