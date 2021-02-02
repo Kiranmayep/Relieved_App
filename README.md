@@ -29,5 +29,5 @@ ___
 
 ___
 ### Images of The App
-<img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="250" height="250" />
+<img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="250" height="400" />
 
