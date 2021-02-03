@@ -31,11 +31,8 @@ ___
 ___
 
 ### Images of The App
-<p float="left">
-  <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="100" />
-  <img src=//github.com/Kiranmayep/Relieved_App/blob/master/3.jpeg" width="100" /> 
-  <img src="/img3.png" width="100" />
-</p>
+![alt text](https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg?raw=true)
+![alt text](https://github.com/Kiranmayep/Relieved_App/blob/master/3.jpeg?raw=true)
 
 
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="250" height="500" />
