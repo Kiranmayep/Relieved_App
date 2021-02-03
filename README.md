@@ -31,6 +31,9 @@ ___
 ___
 
 ### Images of The App
+![](https://github.com/NitishGadangi/CovidAid/blob/master/images/ss1.jpg?raw=true)
+![](https://github.com/NitishGadangi/CovidAid/blob/master/images/ss1.jpg?raw=true)
+
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/2.jpeg" width="250" height="500" />
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/3.jpeg" width="250" height="500" />
 <img src="https://github.com/Kiranmayep/Relieved_App/blob/master/4.jpeg" width="250" height="500" />
